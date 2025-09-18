@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document covers the various objects that can be created in the Now Platform.
+This document covers the various objects (or application files) that can be created in the Now Platform.
 
 We (as consultants or customers) should strive to set standards, so here are some ideas to get started.
 
