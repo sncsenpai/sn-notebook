@@ -1,4 +1,4 @@
-# Make Code Easy To Read
+# Make Your Code Easy To Read
 
 Remember, others may work on your deliverable in the future. Another way to look at it, is to code for future you. Will you remember the rationale or purpose of the scripts in the future? Possibly not. Therefore, please ensure your code is easy to read and understand. 
 
