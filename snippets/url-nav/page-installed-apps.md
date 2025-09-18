@@ -1,0 +1,1 @@
+/$allappsmgmt.do?sysparm_filter=Obtained=installed

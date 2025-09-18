@@ -6,6 +6,7 @@
         "jsdbx",
         "OOTB",
         "STRY",
-        "g_scratchpad"
+        "g_scratchpad",
+        "sysparm_stack"
     ]
 }
