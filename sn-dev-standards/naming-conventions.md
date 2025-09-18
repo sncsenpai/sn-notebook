@@ -21,7 +21,7 @@ Service Account Users are those that do not authenticate via the UI, such as int
 - A prefix should be used to differentiate the ‘type’ of a service account.
 - The customers initial prefix should be used to start, if requested by the customer
 - Names should be descriptive of both the purpose of the integration and the source, and should include the customer's name.
-- All Service Account users *must* have the timezone set to UTC and the date format to ‘yyyy-MM-dd’.
+- All Service Account users *must* have the time zone set to UTC and the date format to ‘yyyy-MM-dd’.
 
 ##### Example
 
