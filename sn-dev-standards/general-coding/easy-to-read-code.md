@@ -2,7 +2,7 @@
 
 Remember, others may work on your deliverable in the future. Another way to look at it, is to code for future you. Will you remember the rationale or purpose of the scripts in the future? Possibly not. Therefore, please ensure your code is easy to read and understand. 
 
-## Commenting Code
+### Commenting Code
 
 What may seem obvious today may not be clear in the future, especially on a complicated section of code. Comments should be well-written and clear, just like the code they are annotating. There are three styles of comments: single, block, and doc (I made this one up).
 
@@ -54,9 +54,11 @@ However, it is important to consider limiting comments to focus on providing val
 
 Also, remember that many Application Files, such as Business Rules, Client Scripts, Script Includes, etc. do have the `description` field. Leverage that for larger comments.
 
-## Write Simple Statements
+### Write Simple Statements
 
-Remember that less experienced developers may work with your code in the future. Make it as easy to maintain as possible. In general, it is the compiler\'s job to make code fast, so minimise the use of fancy tricks. For example, experienced programmers may not have an issue with the JavaScript ternary operator:
+Just as with comments, remember that less experienced developers may work with your code in the future. Make it as easy to maintain as possible. In general, it is the compiler's (or interpreter's) job to make code fast, so minimise the use of fancy tricks. 
+
+For example, experienced programmers (or show offs) may not have an issue with the JavaScript ternary operator:
 
 `var result = (a == b) ? "foo" : "bar";`
 
@@ -72,3 +74,52 @@ else {
 }
 ```
 
+### Use Whitespace Wisely
+
+JavaScript is quite forgiving. You can use a lot of space between statements and the script will still work. So, while it is recommended to use empty lines and spaces to make code readable, please don't overdo it.
+
+The key point is that code should be structured to be easy to read and understand. Prioritise readability over ease of writing.
+
+What do I mean here:
+
+- Clearly separate function parameters
+- Use additional lines to visually group code blocks together
+- Use tabs (or fixed character spacing) to indent code blocks
+  - Including nested code blocks
+
+Here's an example of a badly using whitespace:
+
+```javascript
+function myFunction(varA,varB) {
+var isAllowed = varA != varB;
+if (isAllowed) { doSomething(); } else { doSomethingElse(); }
+}
+```
+
+Let's now apply some whitespace logic:
+
+```javascript
+function myFunction(varA,varB) {
+    var isAllowed = varA != varB;
+    if (isAllowed) {
+        doSomething(); 
+    } 
+    else { 
+        doSomethingElse(); 
+    }
+}
+```
+
+Barring the conversation of bracket placement[^1], the ServiceNow code editor does have the ability to format the code for you, but I personally do not like how the `else` gets buried in the brackets:
+
+```javascript
+if (isAllowed) {
+    doSomething(); 
+} else { 
+    doSomethingElse(); 
+}
+```
+
+The issue with this is that it takes away to quickly and easily read (or scan) code at a glance. Code blocks need to be visually organised.
+
+[^1]: That's a debate I do not want to get into 😄.
