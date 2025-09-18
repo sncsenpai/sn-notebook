@@ -1,6 +1,8 @@
 # Scrum Glossary
 
-## #
+[TOC]
+
+## Numbered
 
 **3-5-3**: A  way to remember the basic components of Scrum:
 
@@ -25,11 +27,11 @@
 
 **Acceptance Test-Driven Development (ATDD):** test-first software development practice in which acceptance criteria for new functionality are created as automated tests. The failing tests are constructed to pass as development proceeds and acceptance criteria are met.
 
-**Adaptation**: One of the three Scrum Pillars. This is about continuous improvement, the ability to adapt based on the results of the inspection. Everyone in the organization must ask this question regularly: Are we better off than yesterday? For profit-based organizations, the value is represented in terms of profit. The adaptation should eventually relay back to one of the reasons for adapting Agile.
+**Adaptation:** One of the three Scrum Pillars. This is about continuous improvement, the ability to adapt based on the results of the inspection. Everyone in the organization must ask this question regularly: Are we better off than yesterday? For profit-based organizations, the value is represented in terms of profit. The adaptation should eventually relay back to one of the reasons for adapting Agile.
 
-**Application Lifecycle Management(ALM): ** holistic view on the management of software applications and systems, accounting for all stages of the existence of a software product.
+**Application Lifecycle Management(ALM):** holistic view on the management of software applications and systems, accounting for all stages of the existence of a software product.
 
-**Application Telemetry: ** Understanding how a product is used is a key factor for taking better decisions on where to invest. Application Telemetry can provide some insights to increase this understanding by showing usage statistics, performance parameters, user workflows and other relevant information.
+**Application Telemetry:** Understanding how a product is used is a key factor for taking better decisions on where to invest. Application Telemetry can provide some insights to increase this understanding by showing usage statistics, performance parameters, user workflows and other relevant information.
 
 ## B
 
