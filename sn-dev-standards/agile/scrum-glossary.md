@@ -1,7 +1,5 @@
 # Scrum Glossary
 
-[TOC]
-
 ## Numbered
 
 **3-5-3**: A  way to remember the basic components of Scrum:
