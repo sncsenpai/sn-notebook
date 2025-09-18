@@ -66,7 +66,7 @@ The following is a list of object types and their recommendations:
 | **Messages**                                                 | + Ensure the **key** starts with <CUSTOMER CODE> followed by the app/process name, and then a meaningful name for its usage. <br />+ Optionally, include `msg` to distinguish it from other objects. <br />+ Separate the above with a dot, for example:  `CD.change.msg.lead_time_invalid` |
 | **Properties**                                               | + Ensure the **name** starts with <CUSTOMER CODE> followed by the app/process name, and then a purposeful name. <br />+ Separate the above with a dot, for example:  `CD.knowledge.redirect_to_portal_suffix`  <br />Further discussed later in this document. |
 
- * Of note, many developers like to abbreviate the app/process name to match the numbering style. For example: “CD.inc.newIncident”. However, this does need to be agreed amongst the team, to maintain consistency.* 
+> **Note**: many developers like to abbreviate the app/process name to match the numbering style. For example: “CD.inc.newIncident”. However, this does need to be agreed amongst the team, to maintain consistency.
 
 ## Update Set Naming 
 
