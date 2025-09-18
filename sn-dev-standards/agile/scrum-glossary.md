@@ -127,9 +127,9 @@ closes the feedback loop. A closer collaboration strengthens learning how we cou
 
 **Infrastructure as Code (IaC):** An automated process of using scripts and parameters to setup and configure infrastructure and environments. The scripts and configuration files can be stored in version control together with the source code of the software. This allows to create exactly the matching environment for a given version of the software. Changes to the environment are documented in version control as they are no longer executed on the environment directly but by changing and executing a script. And new instances of an exact copy of the production environment can easily be created, for example for testing purpose.
 
-**Impediment (Blockers)**: Anything that slows the Team down or prevents them from completing work. The key is to identify and remove impediments as quickly and systematically as possible. The Scrum Master helps the team remove impediments and is accountable for surfacing impediments the team can’t remove on their own.
+**Impediment (Blockers):** Anything that slows the Team down or prevents them from completing work. The key is to identify and remove impediments as quickly and systematically as possible. The Scrum Master helps the team remove impediments and is accountable for surfacing impediments the team can’t remove on their own.
 
-**Inspection**: One of the three Scrum Pillars. Scrum users must frequently inspect Scrum artifacts and progress toward a Sprint Goal to detect undesirable variances. Their inspection should not be so frequent that inspection gets in the way of the work. Inspections are most beneficial when diligently performed by skilled inspectors at the point of work and at Scrum events.
+**Inspection:** One of the three Scrum Pillars. Scrum users must frequently inspect Scrum artifacts and progress toward a Sprint Goal to detect undesirable variances. Their inspection should not be so frequent that inspection gets in the way of the work. Inspections are most beneficial when diligently performed by skilled inspectors at the point of work and at Scrum events.
 
 ## M
 
@@ -147,21 +147,21 @@ closes the feedback loop. A closer collaboration strengthens learning how we cou
 
 ## O
 
-**Openness**: One of the five Scrum Values. Items which represent work or value. 
+**Openness:** One of the five Scrum Values. Items which represent work or value. 
 
 ## P
 
 **Pair Programming:** agile software development practice popularized by Extreme Programming in which two team members jointly create new functionality.
 
-**Parking Lot**: An unofficial extension of a meeting that often follows The Daily Scrum where the members of the Scrum Team discuss in-depth issues, impediments, or topics that go beyond the scope of the Daily Scrum. Only attended by those required to reach resolution on the issues raised.
+**Parking Lot:** An unofficial extension of a meeting that often follows The Daily Scrum where the members of the Scrum Team discuss in-depth issues, impediments, or topics that go beyond the scope of the Daily Scrum. Only attended by those required to reach resolution on the issues raised.
 
-**Product Backlog**: A Scrum Artifact that consists of an ordered list of the work to be done in order to create, maintain and sustain a product. Managed by the Product Owner.
+**Product Backlog:** A Scrum Artifact that consists of an ordered list of the work to be done in order to create, maintain and sustain a product. Managed by the Product Owner.
 
-**Product Backlog Item (PBI)**: A change to be made to the product in a future release (for example a feature, function, requirement, enhancement, or fix). Higher ordered Product Backlog items are usually clearer and more detailed than lower ordered ones.
+**Product Backlog Item (PBI):** A change to be made to the product in a future release (for example a feature, function, requirement, enhancement, or fix). Higher ordered Product Backlog items are usually clearer and more detailed than lower ordered ones.
 
-**Product Backlog refinement**: the activity in a Sprint through which the Product Owner and the Developers add granularity to the Product Backlog.
+**Product Backlog refinement:** the activity in a Sprint through which the Product Owner and the Developers add granularity to the Product Backlog.
 
-**Product Feedback**: Stakeholder input that is analysed to inform the next iteration, and path of a product or service. Goals of the feedback are to:
+**Product Feedback:** Stakeholder input that is analysed to inform the next iteration, and path of a product or service. Goals of the feedback are to:
 
 - Validate & Understand how customers interact with the product
 - Capture ideas and emerging requirements for functionality
@@ -204,7 +204,7 @@ Scrum adheres to the underlying Agile principles of iterative, value-based incre
 
 **Scrum Team:** a self-managing team consisting of a Product Owner, Development Team and Scrum Master.
 
-**Scrum Values**: a set of fundamental values and qualities underpinning the Scrum framework; commitment, focus, openness, respect and courage. There are five Scrum Values:
+**Scrum Values:** a set of fundamental values and qualities underpinning the Scrum framework; commitment, focus, openness, respect and courage. There are five Scrum Values:
 
 - courage
 - focus
@@ -245,11 +245,11 @@ succeed.
 
 **Technical Debt:** the typically unpredictable overhead of maintaining the product, often caused by less than ideal design decisions, contributing to the total cost of ownership. May exist unintentionally in the Increment or introduced purposefully to realize value earlier.
 
-**Testing in Production: ** What sounds like a very dangerous approach can help not only to reduce cycle time but also make your tests more reliable. It means to execute various tests right in the production environment. To reduce the risk of affecting production operations with untested and failing functionality, various technologies can be used to make the new functionality only available to the test process or a very small set of users while other users will use the previous functionality. The change will be rolled out to all users once the test was successful. This practice will help you to get rid of various test stages like QA, UAT, Staging etc. And as the tests run in the real production environment, you can eliminate the risk of using a test environment that behaves slightly different from your production environment.
+**Testing in Production:** What sounds like a very dangerous approach can help not only to reduce cycle time but also make your tests more reliable. It means to execute various tests right in the production environment. To reduce the risk of affecting production operations with untested and failing functionality, various technologies can be used to make the new functionality only available to the test process or a very small set of users while other users will use the previous functionality. The change will be rolled out to all users once the test was successful. This practice will help you to get rid of various test stages like QA, UAT, Staging etc. And as the tests run in the real production environment, you can eliminate the risk of using a test environment that behaves slightly different from your production environment.
 
-**Timebox**: A fixed, maximum length of time for an activity or event. Scrum uses timeboxing for all of the Scrum events and as a tool for concretely defining open-ended or ambiguous tasks.
+**Timebox:** A fixed, maximum length of time for an activity or event. Scrum uses timeboxing for all of the Scrum events and as a tool for concretely defining open-ended or ambiguous tasks.
 
-**Transparency**: One of the three Scrum Pillars. Significant aspects of the process and product must be visible to those responsible for the outcome. Transparency requires those aspects be defined by a common standard so observers share a common understanding of what is being seen.
+**Transparency:** One of the three Scrum Pillars. Significant aspects of the process and product must be visible to those responsible for the outcome. Transparency requires those aspects be defined by a common standard so observers share a common understanding of what is being seen.
 
 ## U
 
@@ -259,7 +259,7 @@ succeed.
 
 ## V
 
-**Values**: When the values of commitment, courage, focus, openness and respect are embodied and lived by the Scrum Team, the *Scrum pillars* of transparency, inspection, and adaptation *come to life* and *build trust* for everyone. The Scrum Team members learn and explore those values as they work with the Scrum events, roles and artifacts. 
+**Values:** When the values of commitment, courage, focus, openness and respect are embodied and lived by the Scrum Team, the *Scrum pillars* of transparency, inspection, and adaptation *come to life* and *build trust* for everyone. The Scrum Team members learn and explore those values as they work with the Scrum events, roles and artifacts. 
 
 **Velocity:** an optional but often used indication of the amount of Product Backlog turned into an Increment of product during a Sprint. It is tracked by the Developers for use within the Scrum Team.
 
@@ -268,6 +268,6 @@ each different department or team means there is a handoff. Handoffs tend to be 
 
 ## W
 
-**Working Agreement**: An agreed upon set of norms, practices, and policies that establish how team members work together.
+**Working Agreement:** An agreed upon set of norms, practices, and policies that establish how team members work together.
 
 [Scrum Guide™]: http://scrumguides.org/
