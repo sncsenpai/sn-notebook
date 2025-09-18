@@ -46,7 +46,7 @@ and it becomes the new blue environment. The previous blue environment at the sa
 
 **Burn-up Chart:** a chart which shows the amount of work which has been completed. Time is shown on the horizontal axis and work completed on the vertical axis. As time progresses and items are drawn from the backlog and completed, a plot line showing the work done may be expected to rise. The amount of work may be assessed in any of several ways such as user story points or task hours. The amount of work considered to be in-scope may also be plotted as a line; the burn-up can be expected to approach this line as work is completed.
 
-# C
+## C
 
 **Clean Code:** software code that is expressed well, formatted correctly, and organized for later coders to understand. Clarity is preferred over cleverness.
 
