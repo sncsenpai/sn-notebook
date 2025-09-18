@@ -4,13 +4,16 @@
 
 First off, let's answer the question. Why not a code review? Code reviews are essential for maintaining high code quality, ensuring consistency, verifies code meets functional requirements, adheres to established standards, and is maintainable and secure.
 
-Observe that it's focused around code. ServiceNow Implementations are more than just code and commits. There are other expectations or standards you want to set within your organisation. This document gives a flavour of how peer reviewers need to inspect the target work item. The usual way to employ peer reviews like this is at the dev-complete[^1] stage of work item. 
+Observe that it's focused around code. ServiceNow Implementations are more than just code and commits. There are other expectations or standards you want to set within your organisation. Hence, I call this a technical peer review, where you would look at the wrap-up in the respective story or work item, the update sets, etc.
+
+This document gives a flavour of how technical peer reviewers need to inspect the target work item. The usual way to employ peer reviews like this is at the dev-complete[^1] stage of work item. 
 
 A valuable addition to your dev tracking tool would be a *Technical Peer Reviewer* field or related task[^2]. The task could be locked so that users can only populate their own name. 
 
 This kind of approach allows an audit record where you can be sure that your own peer review[^3] process has been adhered to. 
 
 ## Check the Story Record
+
 - [ ] Are the *Deployment[^4] Notes* up-to-date and clear? 
    - This is where the Update Set name is provided, or a task is created for more complex and/or manual steps.
    - Ensure the steps are listed in the **correct** sequence.
@@ -27,6 +30,7 @@ This kind of approach allows an audit record where you can be sure that your own
 - [ ] The peer review is captured on the work item or a related task?
 
 ## Check the Update Set(s)
+
 - [ ] Correct naming convention used for the Update Set(s)? [^7]
 - [ ] Is the Update Set versioned correctly?
 - [ ] If there are multiple Update Sets with the same name have they been batched correctly?
