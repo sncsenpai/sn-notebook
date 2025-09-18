@@ -32,7 +32,6 @@ Used as a template for Kanban approach (Visual Task Board). Based on the [4Ls Re
 
 **Meaning**: What did the team long for?
 
-**Definition**: What you wish you’d had. 
+**Definition**: What you wish you’d had.
 
 **Example**: Having more customer interviews
-
