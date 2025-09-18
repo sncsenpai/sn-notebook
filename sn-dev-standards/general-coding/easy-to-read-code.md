@@ -2,7 +2,7 @@
 
 Remember, others may work on your deliverable in the future. Another way to look at it, is to code for future you. Will you remember the rationale or purpose of the scripts in the future? Possibly not. Therefore, please ensure your code is easy to read and understand. 
 
-### Commenting Code
+## Commenting Code
 
 What may seem obvious today may not be clear in the future, especially on a complicated section of code. Comments should be well-written and clear, just like the code they are annotating. There are three styles of comments: single, block, and doc (I made this one up).
 
@@ -54,7 +54,7 @@ However, it is important to consider limiting comments to focus on providing val
 
 Also, remember that many Application Files, such as Business Rules, Client Scripts, Script Includes, etc. do have the `description` field. Leverage that for larger comments.
 
-### Write Simple Statements
+## Write Simple Statements
 
 Just as with comments, remember that less experienced developers may work with your code in the future. Make it as easy to maintain as possible. In general, it is the compiler's (or interpreter's) job to make code fast, so minimise the use of fancy tricks. 
 
@@ -74,7 +74,7 @@ else {
 }
 ```
 
-### Use Whitespace Wisely
+## Use Whitespace Wisely
 
 JavaScript is quite forgiving. You can use a lot of space between statements and the script will still work. So, while it is recommended to use empty lines and spaces to make code readable, please don't overdo it.
 
