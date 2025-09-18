@@ -117,7 +117,7 @@ closes the feedback loop. A closer collaboration strengthens learning how we cou
 
 **Forecast (of functionality)**: the selection of items from the Product Backlog Developers deems feasible for implementation in a Sprint.
 
-### H
+## H
 
 **Hypothesis Driven Development**: The basic idea behind Hypothesis Driven Development is that in a complex environment we do not know where to invest in order to achieve the highest possible value: we formulate hypotheses about that. Once we accept uncertainty and agree that the assumptions our plans are based on can be wrong, it makes sense to change our approach to the development of new features. Validating our assumptions gets high priority and finding small and fast experiments to get more insights becomes an important part of work. 
 
