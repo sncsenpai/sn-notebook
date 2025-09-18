@@ -2,6 +2,8 @@
 
 Used as a template for Kanban approach (Visual Task Board). Based on the [4Ls Retrospective](https://openpracticelibrary.com/practice/4ls-retrospective/).
 
+![Retro Screenshot](../assets/retro-screenshot.png)
+
 ## Liked 👍
 
 **Meaning**: What did the team like?
