@@ -2,7 +2,7 @@
 
 Used as a template for Kanban approach (Visual Task Board). Based on the [4Ls Retrospective](https://openpracticelibrary.com/practice/4ls-retrospective/).
 
-![Retro Screenshot](../assets/retro-screenshot.png)
+![Retro Screenshot](../_assets/retro-screenshot.png)
 
 ## Liked 👍
 
