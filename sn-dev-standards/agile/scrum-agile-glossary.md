@@ -82,7 +82,7 @@ The following is a list of types in the ServiceNow Agile Development 2.0 Applica
 ##  Story Flow
 
 | Term               | Definition                                                   |
-| ------------------ | ------------------------------------------------------------ |
+| :----------------- | :----------------------------------------------------------- |
 | Backlog Refinement | Preparing a Backlog by adding granularity to make it ready for Planning. Remember that the goal of Backlog Refinement is that the Story becomes Ready. Sometimes referred to as "grooming". |
 | Ready Story        | A shared understanding by the Product Owner and the Developers regarding the preferred level of description of Product Backlog Items introduced at Sprint Planning (referred to as Definition of Ready). |
 | WIP                | The Sprint Backlog Items started but not finished            |
