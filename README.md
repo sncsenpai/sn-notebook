@@ -8,4 +8,14 @@ I guess some points will be debateable but I'm happy to challenge and learn more
 
 ## Contents (in development)
 
-[ServiceNow Development Standards > General Coding Practices](./sn-dev-standards/general-coding)
+- [ServiceNow Development Standards](./sn-dev-standards)
+  - [General Coding Practices](./sn-dev-standards/general-coding)
+- [Practices in a ServiceNow Environment](./sn-practices)
+  - [Agile Practices](./sn-practices/agile)
+  - [Environment Management](.sn-practices/environment-management)
+- [ServiceNow Snippets](./snippets)
+  - [Client-side](./snippets/client-side)
+  - [Server side](./snippets/server-side)
+  - [URLs Navigation](/snippets/url-nav)
+ 
+I have more snippets over on the [Gists side](https://gist.github.com/sncsenpai).
