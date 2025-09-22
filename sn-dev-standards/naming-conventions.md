@@ -107,7 +107,7 @@ or
 
 `inc.auto_close.reminder_period` *if it's your adopted practice to refer to the number maintenance table for the respective application*
 
-This property specifies a product area (incident), a function (auto_close) and a method (reminder_period) which tells you as much as possible.
+This property specifies a product area (incident), a function (auto_close) and a method (reminder_period) which tells you as much as possible. However, the scenario will vary when building scoped application(s) as a prefix is automatically created for new properties, unless your application builds on top of existing functionality.
 
 ### Instance specific properties
 
