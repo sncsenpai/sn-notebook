@@ -17,7 +17,7 @@ let area = width * height; // This line computes the area
 
 These comments are useful for brief explanations, and adding notes like `// TODO:` or `// FIXME:` to track tasks or bugs.
 
-Block comments start with`\*` and end with `*/` - everything between them is considered a comment. This is useful for longer explanations, documenting functions, or disabling multiple lines of code. For example:
+Block comments start with`/*` and end with `*/` - everything between them is considered a comment. This is useful for longer explanations, documenting functions, or disabling multiple lines of code. For example:
 
 ```javascript
 /*
