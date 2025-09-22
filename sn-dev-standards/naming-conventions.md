@@ -115,8 +115,8 @@ There are cases you would need to instance-specific system properties whereby it
 
 ### Other guidelines
 
-- You *must* endeavour to document your properties in the 'Description' field
+- You *must* use the 'Description' field to document property
 - Ordering is left to right, in terms of significance
-- Words under a single grouping must be separated by an underscore (`_`), not a full stop
-- Properties *must* be surfaced in a properties page so that they are visible
+- Words under a single grouping must be separated by an underscore (`_`), not a full stop (as observed in the examples above)
+- It is highly recommended that properties are surfaced in a properties page to increase visibility.
 - If properties being active in production is a problem, you must ensure there is some monitoring solution to ensure that this does not happen accidentally.
