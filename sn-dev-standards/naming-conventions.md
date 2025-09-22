@@ -99,13 +99,21 @@ Regardless of the scheme you choose, you should always include a version number,
 
 Properties are often created without much thought to their curation, and it’s really important to avoid this.
 
-You should group properties sensibly, into functional areas, or streams depending on how your engagement is organized. An example property might be:
+You should group properties sensibly, into functional areas, or streams depending on how your engagement is organised. An example property might be:
 
-`cd.incident.auto_close.reminder_period`
+`incident.auto_close.reminder_period`
+
+or 
+
+`inc.auto_close.reminder_period` *if it's your adopted practice to refer to the number maintenance table for the respective application*
 
 This property specifies a product area (incident), a function (auto_close) and a method (reminder_period) which tells you as much as possible.
 
-Some other guidelines:
+### Instance specific properties
+
+There are cases you would need to instance-specific system properties whereby it is crucial to ensure that configurations like endpoints or settings differ appropriately between environments such as development, testing, and production. A recommended approach involves using a naming convention where instance-specific properties are prefixed with the exact name of the instance, such as `cd-dev.my_rest_endpoint` for a development instance and `cd.my_rest_endpoint` for production. This method allows code to dynamically retrieve the correct property value based on the current instance by leveraging the `instance_name` system property.
+
+### Other guidelines
 
 - You *must* endeavour to document your properties in the 'Description' field
 - Ordering is left to right, in terms of significance
