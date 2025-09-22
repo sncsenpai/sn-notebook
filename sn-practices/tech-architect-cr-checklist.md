@@ -33,5 +33,7 @@ With that in mind, the checks against the Story is to ensure that there is a sin
 
 So the with the line "Relevant decisions and approvals are clearly documented/tracked in the Story", here's my line of thought:
 
-- If these have been made over email, then attach them to the Story, including any pertinent information such as technical/business impact analysis.
+- Attach pertinent information that led to a decision, such as a technical/business impact analysis, to the Story
+- Those decisions, if made over email, should be attached to the Story
+  - ideally the stakeholder(s) have access to the work item tracking system to add the respective comments directly
 - If other teams (e.g. Security Architecture) had any influence in the implementation design this should be clear.
