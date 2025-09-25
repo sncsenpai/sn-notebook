@@ -52,6 +52,11 @@ However, it is important to consider limiting comments to focus on providing val
 - ambiguous specifications
 - non-obvious design
 
+Examples of low quality comments:
+
+- explaining how core methods of the programming language works is considered low-quality as their explanation can be looked up in the respective documentation.
+- does not provide context to what is being solved by the code
+
 Also, remember that many Application Files, such as Business Rules, Client Scripts, Script Includes, etc. do have the `description` field. Leverage that for larger comments.
 
 ## Write Simple Statements
