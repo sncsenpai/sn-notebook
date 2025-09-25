@@ -6,7 +6,7 @@ gs.print(aExtensions);
 // or 
 
 var tableName = "cmdb_ci_server",
-  jlist = GlideDBObjectManager.get().getAllExtensions(),
+  jlist = GlideDBObjectManager.get().getAllExtensions(tableName),
   list = j2js(jlist);
 for (var c = list.length; c > 0;) {
   gs.print(list[--c])
