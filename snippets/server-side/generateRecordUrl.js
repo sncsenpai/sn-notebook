@@ -1,6 +1,6 @@
 /* Example 1:
  * Create a relative URL from the existing GlideRecord variable with/without navigation stacking
- * Set `noStack` to `true` to append `&sysparm_stack=[tablename]_list.do` to the generated URL
+ * Set `noStack` to `false` to append `&sysparm_stack=[tablename]_list.do` to the generated URL
  */
 
 var noStack = false; 
@@ -14,4 +14,5 @@ gs.print(url)
 var sTableName = grRecord.getTableName(),
     sRecordId = grRecord.getUniqueValue(),
     sView = "ess";
+
 var url = gs.generateURL(sTableName, sRecordId, sView)
