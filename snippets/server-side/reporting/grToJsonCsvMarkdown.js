@@ -28,7 +28,7 @@
 
 (function(tableName, sysId, format) {
 	format = format.toLowerCase();
-	delimiter = " | "; // For CSV (optional)
+	delimiter = " | "; // (optional) For CSV as some values may contain a comma, breaking the text to column conversion in Excel
 
 	if (!tableName)
 		throw new Error("No table name provided");
