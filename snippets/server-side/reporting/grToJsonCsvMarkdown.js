@@ -1,6 +1,7 @@
  /**
  * @name GlideRecord to JSON/CSV/Markdown
- * @description Code to convert a GlideRecord object into a JSON object or formatted into CSV/Markdown table format
+ * @description Code to convert a GlideRecord object into a JSON object or formatted into CSV/Markdown table format.
+ * 		There is no need for XML as you're likely to be on the record and can view XML from there.
  * 
  * @author Shahed Ali Shah
  * @date 2024-06-10
