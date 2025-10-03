@@ -67,6 +67,7 @@
 
 		if (type != "string") {
 			// Handling for reference, choice, date, and other non-string fields to get display value
+			// Done this way due to strange failures with using switch on this variable
 			element.data.display_value = fieldRef.getDisplayValue();
 		}
 
